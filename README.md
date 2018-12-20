@@ -3,24 +3,30 @@
 
 ## La classification des dinosauses<br>
 <p><a href="https://commons.wikimedia.org/wiki/File:Evolution_of_dinosaurs_EN.svg#/media/File:Evolution_of_dinosaurs_EN.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Evolution_of_dinosaurs_EN.svg/1200px-Evolution_of_dinosaurs_EN.svg.png" alt="Evolution of dinosaurs EN.svg"></a><br>
+  <br>
+   <br>
 ### AUTEURS:<br>
 ===============
 <p>Alex Lebrun</p>
 <p>Walter BONETTI</p>
 <p>Isabelle Eysseric</p>
 <br>
+ <br>
 ### ETAT DU PROJET:<br>
 ===============
 <p>Version initiale</p>
 <br>
+ <br>
 ### DESCRIPTION:<br>
 ===========
 <p>Ce système expert vérifie dans sa base de connaissances si le dinosaure donné en entrée appartient bien à la classe X donnée en entrée.</p>
 <br>
+ <br>
 ### MISE EN PLACE:<br>
 ==============
 <p>Télécharger le fichier <code>dinosaure.pl</code> puis cliquer deux fois dessus, il devrait s'ouvrir dans votre logiciel utilisant Prolog comme langage. Pour plus d'informations, lire le guide d'installation.</p>
 <br>
+ <br>
 ### UTILISATION:<br>
 ============
 <p>Le programme est muni de deux fonctions pour l’utilisateur:</p>
@@ -31,21 +37,25 @@
 <p>Il est important de ne pas oublier le point à la fin des predicats pour qu'ils soient reconnus.</p>
 <p>Pour plus d'informations, lire le guide d'utilisation.</p>
 <br>
+ <br>
 ### RESSOURCES, DOCUMENTATION:<br>
 ==========================
 <p>Pour plus d'informations, visitez le <a href="https://fr.wikipedia.org/wiki/Dinosaure#Classification"> site de Wikipedia</a>.</p>
-<p>Guide d'utilisation en annexe</p>
-<p>Guide d'installation en annexe</p>
-<p>Rapport du système en annexe</p>
+Guide d'utilisation en annexe<br>
+Guide d'installation en annexe<br>
+Rapport du système en annexe<br>
 <br>
+ <br>
 ### MÉTHODE DE RAPPORT DE BUG:<br>
 =========================
 <p>(À déterminer)</p>
 <br>
+ <br>
 ### CONTRIBUTION:<br>
 =============
 <p>(À déterminer)</p>
 <br>
+ <br>
 ### Licence(s), copyright<br>
 =============
 <p>(À déterminer)</p>
