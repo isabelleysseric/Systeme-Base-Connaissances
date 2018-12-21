@@ -10,18 +10,18 @@
 %
 %%Reference: https://fr.wikipedia.org/wiki/Dinosaure#Classification
 
-%%Bassin pointe vers l'arrière
+%%Bassin pointe vers l'arriÃ¨re
 fait(herrerasauridae(herrerasaurus)).
 fait(herrerasauridae(staurikosaurus)).
-%%Petits os fins et délicats
+%%Petits os fins et dÃ©licats
 fait(coelophysoidea(coelophysis)).
 fait(coelophysoidea(liliensternus)).
 fait(coelophysoidea(dilophosaurus)).
-%% Carnivore, Cornes sur la tête
+%% Carnivore, Cornes sur la tÃªte
 fait(ceratosauria(ceratosaurus)).
 fait(ceratosauria(majungasaurus)).
 fait(ceratosauria(carnotaurus)).
-%% GROS, carnivore, griffe surdimentionnée au premier doigt
+%% GROS, carnivore, griffe surdimentionnÃ©e au premier doigt
 fait(megalosauroidea(spinosaurus)).
 fait(megalosauroidea(suchomimus)).
 fait(megalosauroidea(torvosaurus)).
@@ -33,12 +33,12 @@ fait(avetheropoda(velociraptor)).
 fait(sauropodomorphesBasaux(anchisaurus)).
 fait(sauropodomorphesBasaux(plateosaurus)).
 fait(sauropodomorphesBasaux(massospondylus)).
-%Cou plus de la moitié de la longueur du corps
+%Cou plus de la moitiÃ© de la longueur du corps
 fait(sauropodesBasaux(mamenchisaurus)).
 fait(sauropodesBasaux(omeisaurus)).
 %sauropodeBasal a petit cou
 fait(sauropodesBasaux(shunosaurus)).
-%%Petites dents, crâne allongé
+%%Petites dents, crÃ¢ne allongÃ©
 fait(diplodocoidea(diplodocus)).
 fait(diplodocoidea(apatosaurus)).
 fait(diplodocoidea(amargasaurus)).
@@ -60,7 +60,7 @@ fait(stegosauria(huayangosaurus)).
 fait(ankylosauria(euoplocephalus)).
 fait(ankylosauria(edmontonia)).
 fait(ankylosauria(ankylosaurus)).
-%%Têtes osseuses épaisses (déformées)
+%%TÃªtes osseuses Ã©paisses (dÃ©formÃ©es)
 fait(pachycephalosauria(prenocephale)).
 fait(pachycephalosauria(pachycephalosaurus)).
 fait(pachycephalosauria(stegoceras)).
@@ -80,13 +80,13 @@ fait(iguanodontia(parasaurolophus)).
 
 %%%%% Classification de base %%%%%
 %
-%Séparation de base
+%SÃ©paration de base
 si ornithischia(X) alors dinosaure(X).
 si saurischia(X) alors dinosaure(X).
 %Pieds d'oiseau (ornithopoda)
 si iguanodontia(X) alors ornithopoda(X).
 si ornithopodesBasaux(X) alors ornithopoda(X).
-%Têtes étranges (marginocephalia)
+%TÃªtes Ã©tranges (marginocephalia)
 si ceratopsia(X) alors marginocephalia(X).
 si pachycephalosauria(X) alors marginocephalia(X).
 %Cranes a cornes (Cerapoda)
@@ -119,10 +119,10 @@ si megalosauroidea(X) alors tetanurae(X).
 %neotherapoda
 si tetanurae(X) alors neotheropoda(X).
 si ceratosauria(X) alors neotheropoda(X).
-%Pieds de bêtes (therapoda)
+%Pieds de bÃªtes (therapoda)
 si neotheropoda(X) alors theropoda(X).
 si coelophysoidea(X) alors theropoda(X).
-%Bassin de lézard (saurischia)
+%Bassin de lÃ©zard (saurischia)
 si sauropodomorpha(X) alors saurischia(X).
 si theropoda(X) alors saurischia(X).
 si herrerasauridae(X) alors saurischia(X).
@@ -132,7 +132,7 @@ si herrerasauridae(X) alors saurischia(X).
 %Retourne un dinosaure de la classe X
 exemple_de(X):- fait(X), ch_avant.
 
-%Pour chaînage avant
+%Pour chaÃ®nage avant
 exemple2_de(Y):-
    switch(Y, [ankylosauria: fait(ankylosauria(Y)),
               avetheropoda: fait(avetheropoda(Y)),
@@ -237,7 +237,7 @@ ch_avant:-
 	asserta(fait(X)),
 	ch_avant.
 ch_avant :-
-   write( 'Plus de nouveaux faits déduits, la BC est saturée.'), nl.
+   write( 'Plus de nouveaux faits dÃ©duits, la BC est saturÃ©e.'), nl.
 nouveau_fait( NouvFait ) :-   si Condition alors NouvFait, not( fait(NouvFait) ), recherche_fait( Condition ).
 recherche_fait( Condition ) :- fait( Condition ).
 recherche_fait( Cond1 et Cond2 ) :-
@@ -245,7 +245,7 @@ recherche_fait( Cond1 ), recherche_fait( Cond2 ).
 recherche_fait( Cond1 ou Cond2 ) :-
 recherche_fait( Cond1 ) ; recherche_fait( Cond2 ).
 
-/* condition_vraie/1 : même chose que le prédicat est_vrai/1, mais sans remonter dans les règles à partir des buts */
+/* condition_vraie/1 : mÃªme chose que le prÃ©dicat est_vrai/1, mais sans remonter dans les rÃ¨gles Ã  partir des buts */
 condition_vraie(C):- fait(C).
 condition_vraie(C1 et C2):- condition_vraie(C1), condition_vraie(C2).
 condition_vraie(C1 ou C2):- condition_vraie(C1) ; condition_vraie(C2).
