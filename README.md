@@ -14,7 +14,7 @@
 <p align='center'>
   <a href="https://github.com/isabelleysseric/Systeme-Base-Connaissances">Systeme-Base-Connaissances</a> (GitHub)
   &nbsp; • &nbsp;<a href="https://github.com/isabelleysseric/Systeme-Base-Connaissances/wiki">Systeme-Base-Connaissances</a> (Wiki)<br/>
-  &nbsp; • &nbsp<a href="https://github.com/isabelleysseric">isabelleysseric</a> (GitHub)
+  <a href="https://github.com/isabelleysseric">isabelleysseric</a> (GitHub)
   &nbsp; • &nbsp;<a href="https://isabelleysseric.com/">isabelleysseric.com</a> (Portfolio)
   &nbsp; • &nbsp;<a href="https://www.linkedin.com/in/isabelle-eysseric/">isabelle-eysseric</a> (LinkedIn) <br/>
 </p>
