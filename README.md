@@ -2,15 +2,6 @@
 <br/>
 <br/>
 
-
-## La classification des dinosauses<br/>
-<p>
-  <a href="https://commons.wikimedia.org/wiki/File:Evolution_of_dinosaurs_EN.svg#/media/File:Evolution_of_dinosaurs_EN.svg">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Evolution_of_dinosaurs_EN.svg/1200px-Evolution_of_dinosaurs_EN.svg.png" alt="Evolution of dinosaurs EN.svg">
-  </a>
-</p>
-<br/>
-
 <p align='center'>
   <a href="https://github.com/isabelleysseric/Systeme-Base-Connaissances">Systeme-Base-Connaissances</a> (GitHub)
   &nbsp; • &nbsp;<a href="https://github.com/isabelleysseric/Systeme-Base-Connaissances/wiki">Systeme-Base-Connaissances</a> (Wiki)<br/>
@@ -19,6 +10,15 @@
   &nbsp; • &nbsp;<a href="https://www.linkedin.com/in/isabelle-eysseric/">isabelle-eysseric</a> (LinkedIn) <br/>
 </p>
 <br/>
+<br/>
+
+
+## La classification des dinosauses<br/>
+<p>
+  <a href="https://commons.wikimedia.org/wiki/File:Evolution_of_dinosaurs_EN.svg#/media/File:Evolution_of_dinosaurs_EN.svg">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Evolution_of_dinosaurs_EN.svg/1200px-Evolution_of_dinosaurs_EN.svg.png" alt="Evolution of dinosaurs EN.svg">
+  </a>
+</p>
 <br/>
 
 
