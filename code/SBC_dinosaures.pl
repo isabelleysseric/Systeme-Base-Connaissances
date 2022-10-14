@@ -78,7 +78,7 @@ fait(iguanodontia(edmontosaurus)).
 fait(iguanodontia(parasaurolophus)).
 
 
-%%%%% Classification de base %%%%%
+%%%%% Classification de règles %%%%%
 %
 %Séparation de base
 si ornithischia(X) alors dinosaure(X).
