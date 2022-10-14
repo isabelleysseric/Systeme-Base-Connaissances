@@ -128,11 +128,12 @@ si theropoda(X) alors saurischia(X).
 si herrerasauridae(X) alors saurischia(X).
 
 
-
+%%%%% Raisonnement Déductif  bidirectionnel %%%%%
+%
 %Retourne un dinosaure de la classe X
 exemple_de(X):- fait(X), ch_avant.
 
-%Pour chaînage avant
+%Chaînage avant
 exemple2_de(Y):-
    switch(Y, [ankylosauria: fait(ankylosauria(Y)),
               avetheropoda: fait(avetheropoda(Y)),
@@ -169,6 +170,7 @@ exemple2_de(Y):-
              ]), ch_avant.
 
 
+%Chainage arriere
 %Verifie si le but est vrai
 verifier(But):- ch_arriere(But).
 
