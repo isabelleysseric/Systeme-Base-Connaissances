@@ -1,4 +1,4 @@
-<h1 align="center"> Systeme à Base de Connaissances<br><i>La classification des dinosauses</i></h1>
+<h1 align="center">Knowledge Based System<br><i>The classification of dinosaurs</i></h1>
 <p>
   <a href="https://commons.wikimedia.org/wiki/File:Evolution_of_dinosaurs_EN.svg#/media/File:Evolution_of_dinosaurs_EN.svg">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Evolution_of_dinosaurs_EN.svg/1200px-Evolution_of_dinosaurs_EN.svg.png" alt="Evolution of dinosaurs EN.svg">
@@ -70,7 +70,7 @@
 <br/>
 <br/>
 
-### DESCRIPTION:<br>
+## DESCRIPTION:<br>
 ===========
 <p>This expert system checks in its knowledge base if the dinosaur given as input belongs to the class X given as input.</p>
 <br/>
